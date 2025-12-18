@@ -50,3 +50,39 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 let Channel = 20
 radio.setGroup(Channel)
+basic.showString("DCRL FUZbot V1.1")
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    # . . . .
+    . . . . .
+    . . . . .
+    `)
+basic.showLeds(`
+    . # . . .
+    . . . . .
+    # # . . .
+    . . . . .
+    . # . . .
+    `)
+basic.showLeds(`
+    . # # . .
+    . . . . .
+    # # # . .
+    . . . . .
+    . # # . .
+    `)
+basic.showLeds(`
+    . # # # .
+    . . . . .
+    # # # . .
+    . . . . .
+    . # # # .
+    `)
+basic.showLeds(`
+    . # # # .
+    . . . . .
+    # # # . #
+    . . . . .
+    . # # # .
+    `)
